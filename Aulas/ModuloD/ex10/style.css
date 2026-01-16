@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: blue;
+}
+
+header {
+    text-align: center;
+    color: white;
+    margin: 20px 0px;
+}
+
+main {
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+}
+
+main div {
+    margin: 15px 0px;
+}
+
+main input {
+    padding: 3px;
+}
+
+main img#foto {
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 15px;
+}
