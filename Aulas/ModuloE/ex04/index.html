@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supoer contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <div class="campo">
+                <label for="txtinicio">Início: </label>
+                <input type="number" name="txtinicio" id="txtinicio" required>
+            </div>
+            <div class="campo">
+                <label for="txtfim">Fim: </label>
+                <input type="number" name="txtfim" id="txtfim" required>
+            </div>
+            <div class="campo">
+                <label for="txtpasso">Passo: </label>
+                <input type="number" name="txtpasso" id="txtpasso" required>
+            </div>
+            <div class="campo">
+                <input type="button" value="Contar" onclick="contar()">
+            </div>
+        </form>
+        <div id="res">
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
