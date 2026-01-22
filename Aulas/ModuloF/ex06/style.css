@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(27, 27, 196);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+main {
+    background-color: white;
+    width: 450px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.411);
+}
+main div {
+        margin: 10px 0px;
+}
+
+main input {
+    padding: 3px;
+}
+
+main input[type='number'] {
+    width: 150px;
+}
+
+main select {
+    display: block;
+    width: 150px;
+}
+
+main p {
+    margin: 5px 0px;
+}
