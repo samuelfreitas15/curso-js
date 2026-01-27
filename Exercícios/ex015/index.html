@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel de carro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aluguel de carro</h1>
+    </header>
+    <main>
+        <div>
+            <label for="tdias">Dias: </label>
+            <input type="number" name="tdias" id="tdias" placeholder="Nº de dias com o carro">
+        </div>
+        <div>
+            <label for="tkm">Km: </label>
+            <input type="number" name="tkm" id="tkm" placeholder="Kilometragem percorrida">
+        </div>
+        <div>
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+        <div id="res">
+            
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

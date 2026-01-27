@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sorteador de nomes</h1>
+    </header>
+    <main>
+        <div>
+            <label for="tnome">Digite um nome: </label>
+            <input type="text" name="tnome" id="tnome">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+        </div>
+        <div>
+            <select name="tabela" id="tabela" size="1">
+
+            </select><br>
+            <input type="button" value="Sortear" onclick="sorteio()">
+            <p id="sorteio"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
