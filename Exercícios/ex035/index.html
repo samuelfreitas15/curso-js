@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triângulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Análise de triângulos</h1>
+    </header>
+    <main>
+        <div>
+            <label for="lado1">Primeiro lado: </label>
+            <input type="number" name="lado1" id="lado1">
+        </div>
+        <div>
+            <label for="lado2">Segundo lado: </label>
+            <input type="number" name="lado2" id="lado2">
+        </div>
+        <div>
+            <label for="lado3">Terceiro lado: </label>
+            <input type="number" name="lado3" id="lado3">
+        </div>
+        <div>
+            <input type="button" value="Calcular" onclick="calcular()">
+            <p id="res"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

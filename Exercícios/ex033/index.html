@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Avaliador de números</h1>
+    </header>
+    <main>
+        <div>
+            <label for="tnum1">Primeiro número: </label>
+            <input type="number" name="tnum1" id="tnum1">
+        </div>
+        <div>
+            <label for="tnum2">Segundo número: </label>
+            <input type="number" name="tnum2" id="tnum2">
+        </div>
+        <div>
+            <label for="tnum3">Terceiro número: </label>
+            <input type="number" name="tnum3" id="tnum3">
+        </div>
+        <div>
+            <input type="button" value="Verificar" onclick="verificar()">
+            <br>
+            <p id="res"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

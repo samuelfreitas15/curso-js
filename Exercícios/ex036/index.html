@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Análise de empréstimo</h1>
+    </header>
+    <main>
+        <div>
+            <label for="tcasa">Valor da casa: </label>
+            <input type="number" name="tcasa" id="tcasa">
+        </div>
+        <div>
+            <label for="tsalario">Salário: </label>
+            <input type="number" name="tsalario" id="tsalario">
+        </div>
+        <div>
+            <label for="tanos">Tempo: </label>
+            <input type="number" name="tanos" id="tanos" placeholder="Pagamento em anos">
+        </div>
+        <div>
+            <input type="button" value="Verificar" onclick="calcular()">
+            <p id="res"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
