@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jokenpô online</h1>
+    </header>
+    <main>
+        <div id="opcoes">
+            <img src="imagens/pedra.png" alt="opção jokenpo" id="op_pedra" onclick="pedra()">
+            <img src="imagens/papel.png" alt="opção jokenpo" id="op_papel" onclick="papel()">
+            <img src="imagens/tesoura.png" alt="opção jokenpo" id="op_tesoura" onclick="tesoura()">
+        </div>
+        <div class="botao">
+            <input type="button" value="Jogar" onclick="jogar()">
+        </div>
+        <div id="resultado">
+        </div>
+        <p id="ganhador"></p>
+        <div class="botao" id="reiniciar">
+            <input type="button" value="Reiniciar" onclick="reiniciar()" >
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
