@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa eletrônico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Caixa eletrônico</h1>
+    </header>
+    <main>
+        <div>
+            <label for="valor">Valor a ser sacado: R$</label>
+            <input type="number" name="valor" id="valor">
+            <input type="button" value="Sacar" onclick="sacar()">
+        </div>
+        <div>
+            <p id="res"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

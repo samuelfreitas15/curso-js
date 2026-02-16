@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analizador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analizador de pessoas</h1>
+    </header>
+    <main>
+        <div>
+            <label for="idade">Digite uma idade:</label>
+            <input type="number" name="idade" id="idade">
+
+        </div>
+        <div>
+            <input type="radio" name="sexo" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="sexo" id="fem">
+            <label for="fem">Feminino</label>
+        </div>
+        <div>
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <input type="button" value="Analizar" onclick="analizar()">
+        </div>
+        <div>
+            <p id="res"></p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
